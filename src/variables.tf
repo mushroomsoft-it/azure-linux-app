@@ -56,32 +56,32 @@ variable "web_tier" {
 variable "docker_registry_server_url" {
   type        = string
   description = "Docker Registry Url for downloading the image"
-  required    = true
+
 }
 
 variable "docker_registry_server_username" {
   type        = string
   description = "Docker Registry Username for downloading the image"
-  required    = true
+ 
 }
 
 
 variable "docker_registry_server_password" {
   type        = string
   description = "Docker Registry Password for downloading the image"
-  required    = true
+  
 }
 
 variable "docker_image" {
   type        = string
   description = "Docker Image to use"
-  required    = true
+
 }
 
 variable "docker_image_tag" {
   type        = string
   description = "Docker Image tag"
   default     = "latest"
-  required    = true
+
 }
 
