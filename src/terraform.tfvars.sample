@@ -1,0 +1,24 @@
+subscription_id = ""
+tenant_id = ""
+resource_group_name = ""
+client_id = ""
+client_secret = ""
+environment = "" # Used for naming, examples: dev, ci, staging, prod
+naming_prefix = "" # Used for naming, example: my-project
+location = "" # Azure location, for example EastUS, CentralUS, WestUS
+web_always_on= "true" # Indicates if the application will be always on
+web_tier="" # Azure web tier to use
+docker_registry_server_url="" 
+docker_registry_server_username="" 
+docker_registry_server_password=""
+docker_image=""
+docker_image_tag=""
+
+
+
+
+
+
+
+
+
