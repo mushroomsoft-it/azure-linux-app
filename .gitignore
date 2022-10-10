@@ -1,0 +1,6 @@
+credentials.json
+terraform.tfvars
+tmp.*
+# System Files
+.DS_Store
+Thumbs.db
